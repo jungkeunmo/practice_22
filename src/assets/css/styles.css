@@ -1,0 +1,43 @@
+.top {
+    width: 100%;
+    height: 80px;
+
+    background-color: violet;
+}
+
+.under {
+    width: 100%;
+    height: 530px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.under .under__col1 {
+    width: 50%;
+    height: 530px;
+
+    background-color: aquamarine;
+}
+
+.under .under__col2 {
+    width: 50%;
+    height: 530px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.under .under__col2 .under__col2__sec1 {
+    width: 100%;
+    height: 265px;
+
+    background-color: cyan;
+}
+
+.under .under__col2 .under__col2__sec2 {
+    width: 100%;
+    height: 265px;
+
+    background-color: chartreuse;
+}
